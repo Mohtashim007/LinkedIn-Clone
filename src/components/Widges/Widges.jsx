@@ -21,7 +21,7 @@ const Widgets = () => {
     return ( 
         <div className='widgets'>
             <div className='widgets_header'>
-                <h2> LinkedIn News</h2>
+                <h2> LinkedIn_NEWS</h2>
                 <InfoIcon/>
             </div>
             {newsArticle("Corona Virus","Top News - 886 readers")}
