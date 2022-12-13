@@ -24,7 +24,9 @@ const Widgets = () => {
                 <h2> LinkedIn_Logo</h2>
                 <InfoIcon/>
             </div>
-            {newsArticle("")}
+            {newsArticle("Corona Virus","Top News - 886 readers")}
+            {newsArticle("Tesla hits new hights","Cars & Autos - 300 readers")}
+            {newsArticle("Is Redux good","Code - 899 readers")}
         </div>
      );
 }

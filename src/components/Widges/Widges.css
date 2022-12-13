@@ -21,13 +21,13 @@
     font-weight: 400;
 }
 
-.wigets_article{
+.widgets_article{
     display: flex;
     padding: 10px;
     cursor: pointer;
 }
 
-.wigets_article :hover{
+.widgets_article :hover{
     background-color: whitesmoke;
 }
 
@@ -41,15 +41,15 @@
     font-size: 15px;
 }
 
-.wigets_articleRight{
+.widgets_articleRight{
     flex: 1;
 }
 
-.wigets_articleRight > h4 {
+.widgets_articleRight > h4 {
     font-size: 14px;
 }
 
-.wigets_articleRight > p {
+.widgets_articleRight > p {
     font-size: 12px;
     color: gray;
 }
