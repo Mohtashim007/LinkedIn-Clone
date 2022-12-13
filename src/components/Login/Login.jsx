@@ -48,8 +48,8 @@ const Login = () => {
         <div className='login'>
             <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1280px-LinkedIn_Logo.svg.png' alt=''/>
             <form>
-                <input placeholder='Full Name (required if register)' type='text'value={name} onChange={(e) => setName(e.target.value)} />
-                <input placeholder='Profile Picture URL' type='text'value={profilePic} onChange={(e) => setProfilePic(e.target.value)}/>
+                <input placeholder='Full Name (required if register)' type='text' value={name} onChange={(e) => setName(e.target.value)} />
+                <input placeholder='Profile Picture URL' type='text' value={profilePic} onChange={(e) => setProfilePic(e.target.value)}/>
                 <input placeholder='Email' type='email' value={email}  onChange={(e) => setEmail(e.target.value)}/>
                 <input placeholder='Password' type='password' value={password}  onChange={(e) => setPassword(e.target.value)}/>
                 <button type='submit' onClick={loginToApp}>Sign In</button>

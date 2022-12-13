@@ -19,7 +19,7 @@ const SideBar = () => {
         <div className='sideBar'>
             <div className='sidebar_top' >
                 <img src='https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg' alt=''/>
-                <Avatar src={user.photoUrl} className='sidebar_avatar'>{user.email[0]}</Avatar>
+                <Avatar src={user.photoURL} className='sidebar_avatar'>{user.email[0]}</Avatar>
                 <h2>{user.displayName}</h2>
                 <h4>{user.email}</h4>
             </div>
